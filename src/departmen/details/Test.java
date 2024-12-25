@@ -7,9 +7,6 @@ public class Test {
     private String name;
     private int age;
 
-    Test(){
-        logger.info("Default constructor called {}");
-    }
     Test(String name,int age){
         logger.info("Parametrized constructor called {}");
         this.name = name;
@@ -22,14 +19,6 @@ public class Test {
 
     public int getAge() {
         return age;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
 }
